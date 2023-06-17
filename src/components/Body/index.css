@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  height: 600px;
+  justify-content: space-between;
+}
+.left-navbar-container {
+  background-color: #e2e8f0;
+  margin-bottom: 8px;
+  /* height: 350px; */
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+  margin-right: 8px;
+}
+.left-nav-heading {
+  color: #64748b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.list-container {
+  padding-left: 5px;
+  list-style: none;
+}
+.list {
+  margin-bottom: 12px;
+  font-family: 'Roboto';
+}
+.right-navbar-container {
+  background-color: #e2e8f0;
+  margin-bottom: 8px;
+
+  width: 300px;
+  padding: 20px;
+  text-align: right;
+  margin-left: 8px;
+}
+.right-navbar-ad-container {
+  border: 1px solid #475569;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 120px;
+  margin-left: 5px;
+  padding-left: 0;
+  list-style: none;
+}
+/* .right-navbar-container {
+} */
+.content-navbar-container {
+  width: 100%;
+  background-color: #f1f5f9;
+  padding: 20px;
+  margin-bottom: 8px;
+}
+.content-heading {
+  color: #64748b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
